@@ -1,0 +1,91 @@
+.slider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 600px;
+    overflow: hidden;
+    width: -webkit-fill-available;
+}
+
+.carouselItem {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    min-height: 100%;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.carouselImage {
+    border-radius: 0;
+    box-shadow: 8px 8px 15px #d3d3d3;
+}
+
+.carouselClickContainer {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    list-style: none;
+    margin-top: 80px;
+    padding-left: 0;
+}
+
+.carouselClickItem {
+    color: #c4c4c4;
+    cursor: pointer;
+    display: flex;
+    font-family: cursive;
+    padding-bottom: 40px;
+}
+
+.carouselClickItem.active {
+    color: #263640;
+}
+
+/* Progress bars and play/pause button container */
+.vertical-progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; /* Add some spacing above */
+}
+
+/* Adjust the play/pause button position */
+.play-pause-button {
+    margin-top: 80px; /* Create more space between progress bars and button */
+    margin-left: -20px;
+    padding: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.play-pause-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #ff9900;
+}
+
+.play-pause-button:hover svg {
+    fill: #e68a00;
+}
+
+.progress-bars-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Adds spacing between each progress bar */
+}

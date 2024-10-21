@@ -1,0 +1,22 @@
+.containerStyles {
+    height: 160px;
+    margin-left: 10px;
+    margin-right: -100px;
+    margin-top: 80px;
+    width: 5px;
+}
+
+.fillerStyles {
+    background-color: #ff9900;
+    border-radius: 50px;
+    transition: height 1s ease-in-out;
+    width: 100%;
+}
+
+.dotStyles {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #c4c4c4;
+    margin-bottom: 2px;
+}

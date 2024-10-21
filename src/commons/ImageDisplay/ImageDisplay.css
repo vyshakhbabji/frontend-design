@@ -1,0 +1,13 @@
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 600px;
+    overflow: hidden;
+    width: -webkit-fill-available;
+}
+
+.carouselImage {
+    border-radius: 0;
+    box-shadow: 8px 8px 15px #d3d3d3;
+}

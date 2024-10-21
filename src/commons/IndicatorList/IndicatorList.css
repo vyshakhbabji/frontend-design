@@ -1,0 +1,20 @@
+.carouselClickContainer {
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    list-style: none;
+    margin-top: 80px;
+    padding-left: 0;
+}
+
+.carouselClickItem {
+    color: #c4c4c4;
+    cursor: pointer;
+    display: flex;
+    font-family: cursive;
+    padding-bottom: 40px;
+}
+
+.carouselClickItem.active {
+    color: #263640;
+}

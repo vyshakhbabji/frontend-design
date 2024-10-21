@@ -1,0 +1,59 @@
+.carouselContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image-wrapper {
+    margin-right: 20px;
+}
+
+.image-section {
+    position: relative;
+    width: 400px;
+    height: 560px;
+}
+
+/* Main image styling */
+.main-image {
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    z-index: 999; /* Ensure the main image is above */
+    opacity: 1; /* Fully visible */
+    position: absolute; /* Keep it absolute but on top of the side images */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    top: 60px;
+}
+
+/* Side images styling */
+.small-image-1 {
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1; /* Behind the main image */
+    opacity: 0.3; /* 30% opacity for side images */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    top: -10px;
+    right: -120px;
+}
+
+.small-image-2 {
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1; /* Behind the main image */
+    opacity: 0.3; /* 30% opacity for side images */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    bottom: -60px;
+    right: -120px;
+}
+

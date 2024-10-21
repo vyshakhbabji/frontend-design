@@ -1,0 +1,9 @@
+.title {
+    align-items: center;
+    color: #263640;
+    display: flex;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}

@@ -1,0 +1,36 @@
+.vertical-progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.play-pause-button {
+    margin-top: 80px;
+    margin-left: -20px;
+    padding: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.play-pause-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #ff9900;
+}
+
+.play-pause-button:hover svg {
+    fill: #e68a00;
+}
+
+.progress-bars-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
